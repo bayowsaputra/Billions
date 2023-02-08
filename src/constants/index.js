@@ -1,4 +1,17 @@
-import { people01, people02, people03, instagram, linkedin, airbnb, binance, coinbase, dropbox, send, shield, star, } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  instagram,
+  linkedin,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -183,5 +196,52 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const packages = [
+  {
+    id: 1,
+    type: "Paket Basic",
+    price: "Rp 1.500.000",
+    features: [
+      "(Landing Page, Web brochure, portofolio)",
+      "1 Halaman",
+      "Gratis Domain.com",
+      "Gratis Hosting Server",
+      "Gratis SSL",
+      "Setup Free",
+      "Design New Trend",
+      "( Lama pengerjaan 5 hari )",
+    ],
+  },{
+    id: 2,
+    type: "Paket Middle",
+    price: "Rp 3.000.000",
+    features: [
+      "(Company profile kebutuhan perusahaan / brand)",
+      "3 Halaman",
+      "Gratis Domain.com",
+      "Gratis Hosting Server",
+      "Gratis SSL",
+      "Setup Free",
+      "Design New Trend",
+      "( Lama pengerjaan 10 hari )",
+    ],
+  },
+  {
+    id: 3,
+    type: "Paket Pro",
+    price: "Rp 10.000.000",
+    features: [
+      "(Cocok untuk bisnis yang menggunakan sistem transaksi )",
+      "7 Halaman",
+      "Gratis Domain.com",
+      "Gratis Hosting Server",
+      "Gratis SSL",
+      "Setup Free",
+      "Design New Trend",
+      "( Lama pengerjaan 15 hari )",
+    ],
   },
 ];
