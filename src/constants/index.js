@@ -212,9 +212,10 @@ export const packages = [
       "Gratis SSL",
       "Setup Free",
       "Design New Trend",
-      "( Lama pengerjaan 5 hari )",
+      "( Lama pengerjaan 1 Bulan )",
     ],
-  },{
+  },
+  {
     id: 2,
     type: "Paket Middle",
     price: "Rp 3.000.000",
@@ -226,7 +227,7 @@ export const packages = [
       "Gratis SSL",
       "Setup Free",
       "Design New Trend",
-      "( Lama pengerjaan 10 hari )",
+      "( Lama pengerjaan 3 Bulan )",
     ],
   },
   {
@@ -241,7 +242,7 @@ export const packages = [
       "Gratis SSL",
       "Setup Free",
       "Design New Trend",
-      "( Lama pengerjaan 15 hari )",
+      "( Lama pengerjaan 6-7 Bulan )",
     ],
   },
 ];
