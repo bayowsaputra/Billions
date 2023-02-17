@@ -204,14 +204,17 @@ export const packages = [
     id: 1,
     type: "Paket Basic",
     price: "Rp 1.500.000",
+    // Tambah harga diskon untuk client pertama
+    // disc: "Rp 1.200.000",
     features: [
       "(Landing Page, Web brochure, portofolio)",
       "1 Halaman",
-      "Gratis Domain.com",
+      "Unlimited Domain.com",
       "Gratis Hosting Server",
       "Gratis SSL",
-      "Setup Free",
-      "Design New Trend",
+      // Request revisi berapa hari
+      "Request Revisi",
+      "Setup Design New Trend",
       "( Lama pengerjaan 1 Bulan )",
     ],
   },

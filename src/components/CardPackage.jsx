@@ -21,6 +21,10 @@ const CardPackage = ({ item }) => {
       </div>
       <div className="relative">
         <Button
+          label={"Detail"}
+          styles="absolute top-14 right-0 -mr-20 -mt-6 w-40 items-center justify-center flex"
+        />
+        <Button
           label={"Contact us"}
           styles="absolute top-14 right-0 -mr-20 -mt-6 w-40 items-center justify-center flex"
         />
