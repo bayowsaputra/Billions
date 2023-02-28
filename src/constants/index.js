@@ -246,7 +246,7 @@ export const PACKAGE_CONTENT = [
       { label: "Free Domain", status: true },
       { label: "Free SSL", status: true },
       { label: "Free Hosting Server", status: true },
-      { label: "Free Design Assets", status: false },
+      { label: "Free Design Assets", status: true },
       // Request revisi berapa hari
       { label: "Support Account Manager", status: true },
       { label: "SEO Friendly", status: true },
@@ -264,7 +264,7 @@ export const PACKAGE_CONTENT = [
       { label: "Free Domain", status: true },
       { label: "Free SSL", status: true },
       { label: "Free Hosting Server", status: true },
-      { label: "Free Design Assets + Customize", status: false },
+      { label: "Free Design Assets + Customize", status: true },
       // Request revisi berapa hari
       { label: "Support Account Manager", status: true },
       { label: "SEO Friendly", status: true },
