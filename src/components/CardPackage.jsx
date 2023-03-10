@@ -26,7 +26,7 @@ const CardPackage = ({ item }) => {
 
         <div className="flex flex-col h-80 gap-3.5 ">
           {item?.features.map((e) => (
-            <div className="flex flex-row gap-x-2 items-center">
+            <div className="flex flex-row gap-x-2 items-center" key={e.id}>
               {e?.status === true ? <Check /> : <XMark />}
               <p key={e.id} className="text-[#C9C9EB] text-left text-[14px]">
                 {e.label}

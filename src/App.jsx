@@ -14,6 +14,7 @@ import {
 } from "./components";
 import Package from "./components/Package";
 import { useEffect, useState } from "react";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
   // const [isScrolled, setIsScrolled] = useState(true);
@@ -33,9 +34,7 @@ const App = () => {
   return (
     <div className="bg-primary w-full">
       <div
-        className={`${styles.paddingX} ${
-          styles.flexCenter
-        } z-[100] sticky top-0 bg-inherit`}
+        className={`${styles.paddingX} ${styles.flexCenter} z-[100] sticky top-0 bg-inherit`}
       >
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -58,6 +57,7 @@ const App = () => {
           <Testimonials />
           <Clients />
           <Package />
+          <Portfolio />
           <CTA />
           <Footer />
         </div>
