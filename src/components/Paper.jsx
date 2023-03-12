@@ -1,6 +1,6 @@
-const Paper = ({ color, children }) => {
+const Paper = ({ style, children }) => {
   return (
-    <div className={`${color} max-w-7xl item mr-4 rounded-2xl`}>
+    <div className={`${style} w-96 rounded-2xl`}>
       {children}
     </div>
   );

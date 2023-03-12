@@ -1,7 +1,11 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import RenderAii from "./img-renderer/RenderAii";
+import RenderHalosis from "./img-renderer/RenderHalosis";
+import RenderJakote from "./img-renderer/RenderJakote";
 import RenderKI from "./img-renderer/RenderKI";
+import RenderSultanCoco from "./img-renderer/RenderSultanCoco";
 import Paper from "./Paper";
 
 const responsive = {
@@ -11,20 +15,20 @@ const responsive = {
 };
 
 const items = [
-  <Paper color=" bg-[#97FFDB] " data-value="1" key="1">
-    <RenderKI />
+  <Paper style="bg-[#97FFDB] py-2 box-border" data-value="1" key="1">
+    <RenderKI className={"w-28 h-48 p-2"} />
   </Paper>,
-  <Paper color=" bg-[#FAEEFE] " data-value="1" key="1">
-    2
+  <Paper style="bg-[#FAEEFE] py-2 box-border" data-value="1" key="1">
+    <RenderHalosis className={"w-28 h-48 p-2"} />
   </Paper>,
-  <Paper color=" bg-[#FFEDCE] " data-value="1" key="1">
-    3
+  <Paper style="bg-[#FFE459] py-2 box-border h-52 flex justify-center items-center" data-value="1" key="1">
+    <RenderSultanCoco className={"w-32 h-44 p-2"} />
   </Paper>,
-  <Paper color=" bg-[#FFE459] " data-value="1" key="1">
-    4
+  <Paper style="bg-[#FFEDCE] py-2 box-border" data-value="1" key="1">
+    <RenderJakote className={"w-28 h-48 p-2"} />
   </Paper>,
-  <Paper color="  bg-[#5CE1E6] " data-value="1" key="1">
-    5
+  <Paper style=" bg-[#5CE1E6] py-2 box-border" data-value="1" key="1">
+    <RenderAii className={"w-30 h-48 p-2"} />
   </Paper>,
 ];
 
