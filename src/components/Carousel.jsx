@@ -16,7 +16,7 @@ const responsive = {
 
 const Carousel = ({ items }) => (
   <AliceCarousel
-    // autoPlay
+    autoPlay
     autoPlayStrategy="none"
     autoPlayInterval={2000}
     animationDuration={2000}
