@@ -1,6 +1,6 @@
-const Paper = ({ style, children }) => {
+const Paper = ({ style, children, onClick }) => {
   return (
-    <div className={`${style} w-96 rounded-2xl`}>
+    <div className={`${style}  rounded-2xl`} onClick={onClick}>
       {children}
     </div>
   );
