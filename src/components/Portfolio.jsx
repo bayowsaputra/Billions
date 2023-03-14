@@ -35,7 +35,7 @@ const Portfolio = () => {
       <RenderHalosis className={"w-28 h-48 p-2"} />
     </Paper>,
     <Paper
-      style="bg-[#FFEDCE] py-2 box-border h-52 flex justify-center items-stretch w-80 md:w-96 cursor-pointer"
+      style="bg-[#FFEDCE] py-2 box-border flex justify-center items-stretch w-80 md:w-96 cursor-pointer"
       data-value="1"
       key="1"
       onClick={() => {
@@ -44,9 +44,9 @@ const Portfolio = () => {
       }}
     >
       <RenderSultanCoco
-        classNameSC1={"w-28 h-40 p-3.5 md:p-2 self-start"}
-        classNameSC2={"w-28 h-40 p-3.5 md:p-2 self-center"}
-        classNameSC3={"w-28 h-40 p-3.5 md:p-2 self-end"}
+        classNameSC1={"w-28 h-48 p-3.5 md:p-2 self-start"}
+        classNameSC2={"w-28 h-48 p-3.5 md:p-2 self-center"}
+        classNameSC3={"w-28 h-48 p-3.5 md:p-2 self-end"}
       />
     </Paper>,
     <Paper
@@ -83,7 +83,9 @@ const Portfolio = () => {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         openedIndex={openedIndex}
-        component={items[openedIndex]}
+        component={
+          <div className="scale-110 sm:scale-[3]"> {items[openedIndex]}</div>
+        }
       />
     </div>
   );
