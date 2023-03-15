@@ -20,6 +20,10 @@ const Portfolio = () => {
         setIsOpen(true);
         setOpenedIndex(0);
       }}
+      onClose={() => {
+        setIsOpen(false);
+        setOpenedIndex(-1);
+      }}
     >
       <RenderKI className={" w-28 h-48 p-3.5 md:p-2"} />
     </Paper>,
@@ -31,6 +35,10 @@ const Portfolio = () => {
         setIsOpen(true);
         setOpenedIndex(1);
       }}
+      onClose={() => {
+        setIsOpen(false);
+        setOpenedIndex(-1);
+      }}
     >
       <RenderHalosis className={"w-28 h-48 p-2"} />
     </Paper>,
@@ -41,6 +49,10 @@ const Portfolio = () => {
       onClick={() => {
         setIsOpen(true);
         setOpenedIndex(2);
+      }}
+      onClose={() => {
+        setIsOpen(false);
+        setOpenedIndex(-1);
       }}
     >
       <RenderSultanCoco
@@ -57,6 +69,10 @@ const Portfolio = () => {
         setIsOpen(true);
         setOpenedIndex(3);
       }}
+      onClose={() => {
+        setIsOpen(false);
+        setOpenedIndex(-1);
+      }}
     >
       <RenderJakote className1={"w-24 h-48 p-2"} className2={"w-24 h-44 p-2"} />
     </Paper>,
@@ -67,6 +83,10 @@ const Portfolio = () => {
       onClick={() => {
         setIsOpen(true);
         setOpenedIndex(4);
+      }}
+      onClose={() => {
+        setIsOpen(false);
+        setOpenedIndex(-1);
       }}
     >
       <RenderAii className1={"w-28 h-40 p-2"} className2={"w-28 h-48 p-2"} />

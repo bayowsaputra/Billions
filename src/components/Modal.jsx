@@ -3,7 +3,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import CloseIcon from "../../src/assets/xmark-solid.svg";
 import XMark from "./icons/XMark";
 
-const Modal = ({ isOpen, setIsOpen, openedIndex, component }) => {
+const Modal = ({ isOpen, setIsOpen, component }) => {
   //   let [isOpen, setIsOpen] = useState(true);
   return (
     <>
