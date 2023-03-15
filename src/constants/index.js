@@ -69,7 +69,7 @@ export const feedback = [
     id: "feedback-2",
     content:
       "the service provided is very helpful for my team in introducing the products I make with a design that is easy to understand.",
-    name: "Justin Sutama",
+    name: "Muhammad Raihan",
     title: "Founder",
     img: people02,
   },
@@ -77,7 +77,7 @@ export const feedback = [
     id: "feedback-3",
     content:
       "fast workmanship & smooth communication and satisfying results in creating a website for our company.",
-    name: "Fadhlan Bahrul Ihsan",
+    name: "Fadhiliansyah",
     title: "Lead Business Development",
     img: people03,
   },
