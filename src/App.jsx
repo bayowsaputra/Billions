@@ -22,7 +22,7 @@ const App = () => {
   // define function to change color
   // of the navbar based on scroll
   const backgroundChanger = () => {
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     window.scrollY >= 66 ? setIsScrolled(true) : setIsScrolled(false);
   };
 
