@@ -17,24 +17,27 @@ import { useEffect, useState } from "react";
 import Portfolio from "./components/Portfolio";
 
 const App = () => {
-  // const [isScrolled, setIsScrolled] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  // const changeBackground = () => {
-  //   if (window.scrollY >= 66) {
-  //     setIsScrolled(true);
-  //   } else {
-  //     setIsScrolled(false);
-  //   }
-  // };
+  // define function to change color
+  // of the navbar based on scroll
+  const backgroundChanger = () => {
+    console.log(window.scrollY);
+    window.scrollY >= 66 ? setIsScrolled(true) : setIsScrolled(false);
+  };
 
-  // useEffect(() => {
-  //   changeBackground();
-  // });
+  useEffect(() => {
+    backgroundChanger();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", backgroundChanger);
+  }, []);
 
   return (
     <div className="bg-primary w-full">
       <div
-        className={`${styles.paddingX} ${styles.flexCenter} z-[100] sticky top-0 bg-inherit`}
+        className={`${styles.paddingX} ${
+          styles.flexCenter
+        } z-[100] sticky top-0 ${isScrolled ? "bg-inherit" : "bg-transparent"}`}
       >
         <div className={`${styles.boxWidth}`}>
           <Navbar />
