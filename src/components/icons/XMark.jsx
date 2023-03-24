@@ -12,12 +12,12 @@ const XMark = () => {
       <path
         d="M1.17486 8.92755L8.9068 1.19611"
         stroke="#DE2D19"
-        stroke-width="1.98808"
+        strokeWidth="1.98808"
       />
       <path
         d="M8.90668 8.92657L1.17474 1.19514"
         stroke="#DE2D19"
-        stroke-width="1.98808"
+        strokeWidth="1.98808"
       />
     </svg>
   );
