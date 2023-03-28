@@ -268,7 +268,7 @@ export const PACKAGE_CONTENT = [
       // Request revisi berapa hari
       { id:6, label: "Support Account Manager", status: true },
       { id:7, label: "SEO Friendly", status: true },
-      { id:8, label: "Estimation 5-7 Days", status: true },
+      { id:8, label: "Estimation 60 days++", status: true },
     ],
     isRecommended: false,
   },
