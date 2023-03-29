@@ -27,7 +27,7 @@ const Hero = () => {
           For You.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          We Are a Small Software House With Biggest Dreams.
+          Billutions is a Small Software House With Biggest Dreams.
           We Will Help You in Develop Your Business, Organization, MSME
           (UMKM), And Others
         </p>
