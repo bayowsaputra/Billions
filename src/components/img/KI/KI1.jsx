@@ -1,7 +1,13 @@
-import firstImg from '../../../assets/portfolio/kedai/Test 1 1.png'
-const KI1 = ({className}) => {
+import firstImg from "../../../assets/portfolio/kedai/Test 1 1.png";
+const KI1 = ({ className }) => {
   return (
-    <img src={firstImg} alt="firstImageKedai" className={`${className} `}/>
+    <img
+      src={firstImg}
+      alt="firstImageKedai"
+      className={`${className} `}
+      height="48px"
+      width="28px"
+    />
   );
 };
 

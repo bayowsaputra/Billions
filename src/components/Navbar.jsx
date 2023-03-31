@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className={`w-full flex py-6 justify-between items-center navbar`}>
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" width="124px" height="32px" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -30,6 +30,8 @@ const Navbar = () => {
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
+          width="28px"
+          height="28px"
           onClick={() => setToggle(!toggle)}
         />
 

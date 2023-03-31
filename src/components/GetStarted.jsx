@@ -9,7 +9,7 @@ const GetStarted = () => (
           <span className="text-gradient">Get </span>
         </p>
         <a href="https://api.whatsapp.com/send?phone=6281219277699&text=Saya%20tertarik%20untuk%20franchise%20paket standard" target="_blank">
-        <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain"/>
+        <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" width="23px" height="23px"/>
         </a>
       </div>
       
